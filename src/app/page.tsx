@@ -1,3 +1,5 @@
+import { container } from "./page.css";
+
 export default function Home() {
-  return <main>hello world</main>;
+  return <main className={container}>hello world</main>;
 }
